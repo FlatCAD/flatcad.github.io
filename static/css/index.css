@@ -24,7 +24,7 @@ body {
 }
 
 .teaser {
-  font-family: 'Google Sans', sans-serif;
+  font-family: 'Noto Sans', sans-serif;
 }
 
 
@@ -154,4 +154,16 @@ body {
 }
 #interpolation-image-wrapper img {
   border-radius: 5px;
+}
+
+.hr {
+    width: 80%;
+    text-align: center;
+    place-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    height: 1px;
+    margin: 48px 0;
+    background-color: #d6dbdf;
 }
