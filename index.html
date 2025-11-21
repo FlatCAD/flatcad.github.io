@@ -276,6 +276,80 @@ DOI = {10.1111/cgf.70249}
   </div>
 </section>
 
+<section class="section" id="related-work">
+  <div class="container is-max-desktop">
+    <h2 class="title is-3 has-text-centered">Related Work</h2>
+    <div class="content">
+
+      <div class="columns is-vcentered" style="margin-bottom: 2rem; margin-top: 2rem;">
+        <div class="column is-one-third">
+          <figure class="image">
+             <img src="./static/images/finite_paper.png" style="object-fit: contain;">
+          </figure>
+        </div>
+        <div class="column">
+          <h3 class="title is-4" style="margin-bottom: 0.5rem;">A Finite Difference Approximation of Second Order Regularization of Neural-SDFs</h3>
+          <p class="is-size-6 has-text-justified">
+            This work proposes a lightweight alternative to second-order automatic differentiation for Neural SDFs. Using finite-difference stencils with <i>O</i>(<i>h</i><sup>2</sup>) truncation error, it approximates Gaussian curvature penalties efficiently, maintaining robustness on sparse data while reducing computational overhead by a factor of two.
+          </p>
+            <div class="level is-mobile" style="margin-top: 10px; justify-content: flex-start; gap: 10px;">
+            <a href="https://arxiv.org/pdf/2511.08980" class="button is-small is-rounded is-dark">
+              <span class="icon"><i class="fas fa-file-pdf"></i></span>
+              <span>Paper</span>
+            </a>
+            <a href="https://arxiv.org/abs/2511.08980" class="button is-small is-rounded is-dark">
+              <span class="icon"><i class="ai ai-arxiv"></i></span>
+              <span>arXiv</span>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="columns is-vcentered" style="margin-bottom: 2rem;">
+        <div class="column is-one-third">
+          <figure class="image">
+            <img src="./static/images/schedule_paper.png" style="object-fit: contain;">
+          </figure>
+        </div>
+        <div class="column">
+          <h3 class="title is-4" style="margin-bottom: 0.5rem;">Scheduling the Off-Diagonal Weingarten Loss of Neural SDFs for CAD Models</h3>
+          <p class="is-size-6 has-text-justified">
+            A dynamic scheduling extension for the FlatCAD curvature loss. By decaying the regularization weight over the course of training, this method balances optimization stability with fine-scale detail recovery, achieving a 35% improvement in reconstruction fidelity compared to the fixed-weight baseline.</p>
+            <div class="level is-mobile" style="margin-top: 10px; justify-content: flex-start; gap: 10px;">
+            <a href="https://arxiv.org/pdf/2511.03147" class="button is-small is-rounded is-dark">
+              <span class="icon"><i class="fas fa-file-pdf"></i></span>
+              <span>Paper</span>
+            </a>
+            <a href="https://arxiv.org/abs/2511.03147" class="button is-small is-rounded is-dark">
+              <span class="icon"><i class="ai ai-arxiv"></i></span>
+              <span>arXiv</span>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="columns is-vcentered" style="margin-bottom: 2rem;">
+        <div class="column is-one-third">
+          <figure class="imagee">
+            <img src="./static/images/segmentation_paper.jpg" style="object-fit: contain;">
+          </figure>
+        </div>
+        <div class="column">
+          <h3 class="title is-4" style="margin-bottom: 0.5rem;">Joint Neural SDF Reconstruction and Semantic Segmentation for CAD Models</h3>
+          <p class="is-size-6 has-text-justified">This method augments a neural SDF backbone with a lightweight segmentation head, enabling simultaneous shape reconstruction and part labeling. Unlike approaches tied to fixed taxonomies, the pipeline handles arbitrary part counts using PartField supervision. It delivers strong segmentation accuracy and label coherence, even on intricate geometries where reconstruction quality might degrade.</p>
+          <div class="level is-mobile" style="margin-top: 10px; justify-content: flex-start; gap: 10px;">
+            <a href="https://arxiv.org/pdf/2510.03837" class="button is-small is-rounded is-dark">
+              <span class="icon"><i class="fas fa-file-pdf"></i></span>
+              <span>Paper</span>
+            </a>
+            <a href="https://arxiv.org/abs/2510.03837" class="button is-small is-rounded is-dark">
+              <span class="icon"><i class="ai ai-arxiv"></i></span>
+              <span>arXiv</span>
+            </a>
+          </div>
+        </div>
+      </div>
+      </div>
+  </div>
+</section>
 
   <footer class="footer">
     <div class="container">
